@@ -1,0 +1,18 @@
+:: Base project template
+
+:: project: LedBlink
+target: LedBlink
+
+type: executable
+
+sources: {
+    main.c
+}
+
+depends: {
+	MikroSDK.Board
+	MikroSDK.Driver
+    MikroC.Core
+}
+
+
